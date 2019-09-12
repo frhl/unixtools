@@ -11,3 +11,4 @@ The following functions are based on the packages
 * lpr
 
 ## requirements
+cups-pdf
