@@ -1,3 +1,7 @@
+#!/usr/bash
+
+# note: assumes that the desetion ~PDF exist, and is where lpr
+# will print out pdf files.
 # required: sudo apt-get -y install cups-pdf
 
 usage="Usage: $(basename "$0") [-P pages] [PDF-sourcefile] [PDF-destfile]
