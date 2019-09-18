@@ -3,6 +3,7 @@
 # note: assumes that the desetion ~PDF exist, and is where lpr
 # will print out pdf files.
 # required: sudo apt-get -y install cups-pdf
+# todo: error when path has whitespace
 
 usage="Usage: $(basename "$0") [-P pages] [PDF-sourcefile] [PDF-destfile]
 	   where pages could be '1,3-5,16' note: based on lpr"
