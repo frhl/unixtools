@@ -39,9 +39,9 @@ wd=$(pwd)
 
 ## move file
 if [ "$#" == 2 ]; then
-	mv ~/PDF/$printfile $wd/splitted_$filename
+	mv ~/PDF/$printfile "$wd/splitted_$filename"
 else
-	mv ~/PDF/$printfile $wd/${3}
+	mv ~/PDF/$printfile "$wd/${3}"
 fi
 
 
